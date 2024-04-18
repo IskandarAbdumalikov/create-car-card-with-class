@@ -9,6 +9,7 @@
   padding: 0;
   text-decoration: none;
   list-style-type: none;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -55,7 +56,7 @@ button {
   right: 20px;
   background: $backgroundColor;
   border-radius: 50%;
-  color: $secondaryColor;
+  color: $primaryColor;
   display: none;
   justify-content: center;
   align-items: center;

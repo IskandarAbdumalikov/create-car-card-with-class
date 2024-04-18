@@ -14,7 +14,11 @@ body {
 .show__header__shrink {
   padding: 15px 0;
   box-shadow: 0px 0px 10px $hoverColor;
-  background: $secondaryColor;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 25px 45px 0 rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
 }
 
 .header__nav__logo {

@@ -141,7 +141,7 @@ button {
   font-size: 25px;
   bottom: 20px;
   right: 20px;
-  background: #0B7572;
+  background: white;
   border-radius: 50%;
   color: white;
   display: none;
@@ -168,7 +168,7 @@ body {
 
 .show__header__shrink {
   padding: 15px 0;
-  box-shadow: 0px 0px 10px #0B7572;
+  box-shadow: 0px 0px 10px white;
   background: white;
 }
 
@@ -220,13 +220,13 @@ body {
 }
 
 .header__nav__right__list__item:hover {
-  color: #0B7572;
+  color: white;
 }
 
 .header__nav__right__list__item:hover::after,
 .header__nav__right__list__item:hover::before {
   width: 50%;
-  background: #0B7572;
+  background: white;
 }
 
 .header__nav__right__list__close {
@@ -250,9 +250,9 @@ body {
 }
 
 .header__nav__right__btns__contact:hover {
-  border-color: #0B7572;
-  background: #0B7572;
-  color: white;
+  border-color: white;
+  background: white;
+  color: black;
 }
 
 .header__nav__right__btns__hamburger {
@@ -273,7 +273,7 @@ body {
 }
 
 .header__nav__right__btns__hamburger:hover .header__nav__right__btns__hamburger__line {
-  background: #0B7572;
+  background: white;
 }
 
 .header__nav__right__btns__dark-mode {
@@ -306,7 +306,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    box-shadow: 0px 0px 15px #0B7572;
+    box-shadow: 0px 0px 15px white;
     transition: 0.3s;
     z-index: 9999;
   }
@@ -481,7 +481,7 @@ label {
   }
 }
 footer {
-  background: #0B7572;
+  background: white;
   display: flex;
   flex-direction: column;
   gap: 80px;
